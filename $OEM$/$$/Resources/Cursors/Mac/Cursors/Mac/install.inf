@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"Arrow.cur"
+"Help Select.cur"
+"Working in Background.ani"
+"Busy.ani"
+"Precision Select.cur"
+"Text.cur"
+"Handwriting.cur"
+"NO.cur"
+"Vertical.cur"
+"Horizontal.cur"
+"Diagonal Resize 1.cur"
+"Diagonal Resize 2.cur"
+"Move.cur"
+"Alternate Select.cur"
+"Link Select.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Mac"
+SCHEME_NAME     = "Mac"
+pointer		= "Arrow.cur"
+help		= "Help Select.cur"
+work		= "Working in Background.ani"
+busy		= "Busy.ani"
+cross		= "Precision Select.cur"
+text		= "Text.cur"
+hand		= "Handwriting.cur"
+unavailiable	= "NO.cur"
+vert		= "Vertical.cur"
+horz		= "Horizontal.cur"
+dgn1		= "Diagonal Resize 1.cur"
+dgn2		= "Diagonal Resize 2.cur"
+move		= "Move.cur"
+alternate	= "Alternate Select.cur"
+link		= "Link Select.cur"

@@ -1,0 +1,3 @@
+Windows10SysPrepDebloater.ps1 - https://github.com/Sycnex/Windows10Debloater
+VisualCppRedist_AIO_x86_x64.exe - https://github.com/abbodi1406/vcredist
+Microsoft Activation Scripts (MAS) - https://github.com/massgravel/Microsoft-Activation-Scripts
