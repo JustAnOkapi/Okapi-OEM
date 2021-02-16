@@ -47,6 +47,7 @@ if defined HWIDAct set SkipWinAct=/swa
 if %Renewal_And_Activation_Task% EQU 1 call "%~dp0Renewal_Setup.cmd" /rat %SkipWinAct%
 if %Desktop_context_menu% EQU 1 call "%~dp0Renewal_Setup.cmd" /dcm %SkipWinAct%
 
-cd /d "%SystemRoot%\Setup\"
-if exist "%SystemRoot%\Setup\Scripts\" @RD /S /Q "%SystemRoot%\Setup\Scripts\"
-exit /b
+::  Cleanup script
+@REM cd /d "%SystemRoot%\Setup\"
+@REM if exist "%SystemRoot%\Setup\Scripts\" @RD /S /Q "%SystemRoot%\Setup\Scripts\"
+@REM exit /b
