@@ -30,11 +30,11 @@ reg add %key%\120 /V 1 /D "%cdrom%\post\dependencies\npp.7.9.3.Installer.x64.exe
 
 rem [INFO] install dependencies
 reg add %key%\130 /VE /D "C++ and Java" /f
-reg add %key%\130 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-dependencies.bat" /f 
+reg add %key%\130 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-dependencies.cmd" /f 
 
 rem [INFO] install cursors
 reg add %key%\140 /VE /D "Custom Cursors" /f
-reg add %key%\140 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-dependencies.bat" /f 
+reg add %key%\140 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-dependencies.cmd" /f 
 
 rem [INFO] merge custom registry
 reg add %key%\150 /VE /D "Custom Registry" /f
@@ -42,7 +42,7 @@ reg add %key%\150 /V 1 /D "regedit /s %cdrom%\post\OKAPI\OKAPI-registry.reg" /f
 
 rem [INFO] add system cleaning script
 reg add %key%\700 /VE /D "Clean Syetem" /f
-reg add %key%\700 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-clean.bat" /f 
+reg add %key%\700 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-clean.cmd" /f 
 
 rem [INFO] add reboot system
 reg add %key%\800 /VE /D "Finish Setup" /f
