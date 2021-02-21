@@ -34,7 +34,7 @@ reg add %key%\130 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-dependencies.cmd" /f
 
 rem [INFO] install cursors
 reg add %key%\140 /VE /D "Custom Cursors" /f
-reg add %key%\140 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-dependencies.cmd" /f 
+reg add %key%\140 /V 1 /D "%cdrom%\post\OKAPI\OKAPI-cursors.cmd" /f 
 
 rem [INFO] merge custom registry
 reg add %key%\150 /VE /D "Custom Registry" /f
