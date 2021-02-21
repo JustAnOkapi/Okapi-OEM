@@ -48,4 +48,4 @@ rem [INFO] add reboot system
 reg add %key%\800 /VE /D "Finish Setup" /f
 reg add %key%\800 /V 99 /D "shutdown /r /t 5 /c \"Setup is complete! REBOOTING in 3 seconds\"" /f
 
-shutdown /r /t 5 /c "RunOnce has been added to registry! REBOOTING in 3 seconds"
+mshta.exe vbscript:Execute("msgbox ""Setup is complete! Please reboot."",0,""Setup is complete"":close")
